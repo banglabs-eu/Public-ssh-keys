@@ -1,0 +1,15 @@
+Host brickpi
+	Hostname 87.61.101.114 
+	user adam
+	port 33414 
+	IdentityFile ~/.ssh/id_ed25519
+Host internal-coolermaster
+	Hostname 192.168.0.13
+	user adam
+	port 22 
+	IdentityFile ~/.ssh/id_ed25519
+Host hal 
+        Hostname 192.168.0.42
+        user adam
+        port 22
+        IdentityFile ~/.ssh/id_ed25519
